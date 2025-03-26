@@ -1,7 +1,19 @@
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ *  Partner Lab 3: Guess a Number
+ *  Description: The program thinks of a number and the user has to guess that number in max 5 attempts.
+ *               If the user guesses it correct, he/she would win else would lose.
+ *  @author Aagna Modi
+ *  @since 03/25/2025
+ */
 public class GuessGame {
+    /**
+     * To play the game of "Guess number"
+     *
+     * @param n max number so that program would guess any random number in the range of 1 to 'n'
+     */
     public void play(int n) {
         int retryCount = 5;
         System.out.println("I am thinking of a number between 1 and " + n);

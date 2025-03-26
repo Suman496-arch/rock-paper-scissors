@@ -1,7 +1,17 @@
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ *  Partner Lab 3: Rock Paper Scissor Game
+ *  Description: User has to enter his/her move using given option and the program would decide who won, or it was a tie
+ *  @author Suman Sharma
+ *  @since 03/25/2025
+ */
 public class RockPaperScissor {
+    /**
+     * To play the game of "Guess number"
+     *
+     */
     public void play() {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
