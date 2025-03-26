@@ -9,7 +9,7 @@ public class AssignmentDriver {
         switch (choice) {
             case 1:
                 System.out.println("----- You have chosen to play Guess A Number -----");
-                GuessGamebackup guessGame = new GuessGamebackup();
+                GuessGame guessGame = new GuessGame();
                 guessGame.play(100);
                 break;
             case 2:
